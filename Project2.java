@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.regex.Pattern;
 /**
- *The project3 class implements the other classes with the country object. It first 
+ *The project2 class implements the other classes with the country object. It first 
  *creates all the stacks that seperate the countries by GDP per capital. Next the 
  *class inputs the Countries3.csv and splits the data by the comma and the splits the data into 
  *separate fields. The class then breaks the country objects into 5 stacks based on 
@@ -49,7 +49,7 @@ public class Project3 {
 					 Integer.parseInt(parts[5]));
 
 			 /*
-			As in project 2, let us again define five groups of countries based on GDP per capita: 
+			As in project 1, let us again define five groups of countries based on GDP per capita: 
 			POOR countries as those with GDP per capita <1 thousand, FAIR no less than 1 thousand 
 			but <5 thousand, GOOD no less than 5 thousand but <20 thousand, VGOOD no less than 20 
 			thousand but <50 thousand, and EXCELLENT no less than 50 thousand*/
